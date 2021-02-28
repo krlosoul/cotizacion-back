@@ -1,0 +1,23 @@
+{
+    "name": "krlosoul/cotizacion-back",
+    "description": "cotizacion",
+    "require": {
+        "cakephp/chronos": "^2.0",
+        "guzzlehttp/guzzle": "^6.5",
+        "lcobucci/jwt": "^4.0",
+        "peppeocchi/php-cron-scheduler": "^3.0",
+        "php-di/php-di": "^6.0",
+        "phpmailer/phpmailer": "^6.1",
+        "ramsey/uuid": "^3.9",
+        "selective/config": "^0.1.1",
+        "slim/http": "^1.0",
+        "slim/psr7": "^1.0",
+        "slim/slim": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Config\\": "public/config",
+            "App\\": "public/src"
+        }
+    }
+}
